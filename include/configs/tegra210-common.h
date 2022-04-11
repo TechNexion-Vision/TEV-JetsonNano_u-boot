@@ -77,7 +77,11 @@
 		"/chosen/linux,initrd-start:" \
 		"/chosen/linux,initrd-end:" \
 		"/serial-number:" \
-		"/psci/nvidia,system-lp0-disable\0"
+		"/psci/nvidia,system-lp0-disable\0" \
+	"bootcmd=" \
+		"gpio input H7;" \
+		"gpio input I2;" \
+		"run distro_bootcmd\0"
 
 /* For USB EHCI controller */
 #define CONFIG_EHCI_IS_TDI
