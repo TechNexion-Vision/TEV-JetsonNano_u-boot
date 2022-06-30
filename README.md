@@ -13,8 +13,7 @@ $ ./compile_u-boot.sh
 ```
 
 ### Take effect
-1. Copy u-boot.bin
-Copy **u-boot.bin** to:
+1. Copy **u-boot.bin** to:
 ```
 <nvidia_folder>/Linux_for_Tegra/bootloader/t210ref/p3450-0000/u-boot.bin
 ```
